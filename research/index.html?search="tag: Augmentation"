@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- put your analytics (e.g. Google Analytics) tracking code here -->
+
+  
+
+
+
+
+
+
+
+
+
+
+<title>Research | Dr. Gregory Pottie's Lab</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- https://metatags.io/ -->
+<meta name="title" content="Research | Dr. Gregory Pottie's Lab" />
+<meta name="description" content="Lab website for Dr. Gregory Pottie's Lab on Interactive Autonomous Systems Research" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:title" content="Research | Dr. Gregory Pottie's Lab" />
+<meta property="og:description" content="Lab website for Dr. Gregory Pottie's Lab on Interactive Autonomous Systems Research" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="" />
+<meta property="twitter:title" content="Research | Dr. Gregory Pottie's Lab" />
+<meta property="twitter:description" content="Lab website for Dr. Gregory Pottie's Lab on Interactive Autonomous Systems Research" />
+
+<!-- RSS -->
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="../feed.xml"
+/>
+
+<!-- https://developers.google.com/web/fundamentals/native-hardware/click-to-call#disable_auto-detection_when_necessary -->
+<meta name="format-detection" content="telephone=no" />
+
+  <!-- https://realfavicongenerator.net/ -->
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="../favicons/ios.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="512x512"
+  href="../favicons/favicon.png"
+/>
+<link rel="manifest" href="../favicons/site.webmanifest" />
+
+<!-- https://metatags.io/ -->
+<meta
+  property="og:image"
+  content="/Pottie_Lab_Website/favicons/share-thumbnail.jpg"
+/>
+<meta
+  property="twitter:image"
+  content="/Pottie_Lab_Website/favicons/share-thumbnail.jpg"
+/>
+
+  <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+  rel="stylesheet"
+/>
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+<link
+  href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+  rel="preload"
+  as="style"
+  onload="this.onload = null; this.rel = 'stylesheet';"
+/>
+<noscript>
+  <link
+    href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    rel="stylesheet"
+  />
+</noscript>
+
+  <!-- site-wide css styles -->
+      <link href="../css/all.css" rel="stylesheet" />
+      <link href="../css/anchor.css" rel="stylesheet" />
+      <link href="../css/background.css" rel="stylesheet" />
+      <link href="../css/banner.css" rel="stylesheet" />
+      <link href="../css/button.css" rel="stylesheet" />
+      <link href="../css/card.css" rel="stylesheet" />
+      <link href="../css/citation.css" rel="stylesheet" />
+      <link href="../css/code.css" rel="stylesheet" />
+      <link href="../css/feature.css" rel="stylesheet" />
+      <link href="../css/figure.css" rel="stylesheet" />
+      <link href="../css/footer.css" rel="stylesheet" />
+      <link href="../css/form.css" rel="stylesheet" />
+      <link href="../css/gallery.css" rel="stylesheet" />
+      <link href="../css/header.css" rel="stylesheet" />
+      <link href="../css/heading.css" rel="stylesheet" />
+      <link href="../css/highlight.css" rel="stylesheet" />
+      <link href="../css/icon.css" rel="stylesheet" />
+      <link href="../css/image.css" rel="stylesheet" />
+      <link href="../css/input.css" rel="stylesheet" />
+      <link href="../css/link.css" rel="stylesheet" />
+      <link href="../css/list.css" rel="stylesheet" />
+      <link href="../css/paragraph.css" rel="stylesheet" />
+      <link href="../css/portrait.css" rel="stylesheet" />
+      <link href="../css/post-excerpt.css" rel="stylesheet" />
+      <link href="../css/post-info.css" rel="stylesheet" />
+      <link href="../css/post-nav.css" rel="stylesheet" />
+      <link href="../css/quote.css" rel="stylesheet" />
+      <link href="../css/role.css" rel="stylesheet" />
+      <link href="../css/rule.css" rel="stylesheet" />
+      <link href="../css/search-box.css" rel="stylesheet" />
+      <link href="../css/search-info.css" rel="stylesheet" />
+      <link href="../css/section.css" rel="stylesheet" />
+      <link href="../css/table.css" rel="stylesheet" />
+      <link href="../css/tags.css" rel="stylesheet" />
+      <link href="../css/tooltip.css" rel="stylesheet" />
+      <link href="../css/two-col.css" rel="stylesheet" />
+      <link href="../css/util.css" rel="stylesheet" />
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+  defer
+></script>
+
+<!-- site-wide javascript scripts -->
+<script src="../js/anchors.js" defer></script>
+  <script src="../js/fetch-tags.js" defer></script>
+  <script src="../js/search.js" defer></script>
+  <script src="../js/site-search.js" defer></script>
+  <script src="../js/tooltips.js" defer></script>
+  <script src="../js/true-hide.js" defer></script>
+  <script src="../js/util.js" defer></script>
+  
+
+</head>
+
+  <body>
+    <header class="background" style="--background: url('../images/background.jpg')" data-dark="true">
+  <a
+    href="../index.html"
+    class="logo_row"
+    data-tooltip="Home"
+  >
+    <img src="../images/UCLA_logo_blue.png" class="logo" alt="Logo image" />
+    
+      <span class="logo_text">
+        <span class="logo_title">Dr. Gregory Pottie's Lab</span>
+        
+      </span>
+    
+  </a>
+  <nav class="nav_row"><a class="link" href="index.html" data-tooltip="Published works"  data-text="true"  data-style=""><span>Research</span></a><a class="link" href="../Students/index.html" data-tooltip="About our team and past students"  data-text="true"  data-style=""><span>Students</span></a><a class="link" href="../Resources/index.html" data-tooltip="Musings and miscellany"  data-text="true"  data-style=""><span>Resources</span></a><a class="link" href="../contact/index.html" data-tooltip="Email, address, and location"  data-text="true"  data-style=""><span>Contact</span></a></nav>
+</header>
+
+    <main>
+      <section
+      class="background"
+      
+      
+      
+    ><h1 id="research"><i class="fas fa-microscope"></i>Research</h1>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<h2 id="interactive-systems-research-description">Interactive Systems Research Description</h2>
+
+<p>Our research focuses on systems in which human interactions are a major component. Examples of interactive systems include education, medicine, games, fitness monitors, self-driving cars, interfaces to consumer electronics, and internet of things applications. These applications share a number of features, of which, the most important from the point of view of algorithmic development is that time-series data is typically undersampled with respect to the requirements for inference, leading to the need for causal models.</p>
+
+<p>For example, consider the education problem. The knowledge graph of a typical engineering course is a directed acyclic graph (DAG)  that is rooted in pre- requisites to the course, and proceeds through a sequence of concepts that depend in part on the pre-requisites and some of the concepts introduced earlier. A student’s learning process can also be modeled with a DAG that depends on a number of factors: study skills, mastery of prior content, time commitment, inherent learning ability, confounders (e.g., relationship or family trouble). The education “game” is a cooperative multi-agent game with partial observability. It is cooperative because the students and instructor have similar objectives: good performance on the tests with minimal time commitment. If the tests are carefully designed to measure understanding on the key concepts, then this results in a common objective of student learning. The students can see all the course materials, but with testing alone the instructor gets only periodic and partial sampling of what the student knows. The instructor cannot see into the student’s head; this asymmetry makes it essentially impossible to optimize the mutual strategies. However, there is another vital component in education: the one-on-one interaction in which the student and instructor come to a common understanding of why the student was having difficulty. With symmetry of information, the best intervention (or set of interventions) is usually obvious. This is why one-on-one tutoring has been shown in study after study to be more effective than any other teaching method. Unfortunately, it is not cost-effective. Therefore, the optimization problem in education is to maximize the percentage of a cohort that meets the basic requirement given the time resources of the instructor and the students.</p>
+
+<p>As anyone who has taught in college for any period of time can attest, if one student shows up in office hours with some particular problem in understanding, the chances are high that there are many other students with the same problem. Thus, individual interactions can reveal important information about the cohort, allowing interventions for the class as a whole (e.g., going through another example, reviewing some pre-requisite material, assigning a quiz so that they actually study the concepts of interest). The structure of tests can influence the likelihood of students taking the necessary actions to improve understanding. The traditional midterm/final format does not give timely feedback, and can lead to students being in a deep hole. By contrast, a sequence of quizzes provides reasonably accurate weekly feedback on their progress, and can spur timely action by the students (e.g., group sessions with peers, office hours) that will quickly bring them back on track. Consequently there is not a clean separation between group and individual interventions, but it is clear that there is no way to optimize unless students themselves reveal the reasons for their difficulties to the instructor.</p>
+
+<p>Where are the research challenges? Gathering ground truth is expensive in education, and one cannot try alternative interventions on the same person at the same time, i.e., explore alternative counterfactuals. By contrast, with a generative model, one can construct a simulation in which extensive exploration of counterfactuals is possible. If the generative model is complicated enough, one can investigate questions such as the number of samples/observations required to extend an approximate model, gather sufficient population data to characterize priors for subpopulations, and many other questions related to transfer learning and combining causal and deep learning models. More broadly, we are concerned with how to train models in a sample efficient manner, while preserving out of distribution generalization.</p>
+
+</section><section
+      class="background"
+      
+      
+      
+    >
+
+<h2 id="publications-post-1999">Publications (post 1999)</h2>
+
+<p class="center">For list of prior publications, see <a href="http://127.0.0.1:4000/Pottie_Lab_Website/research/cv.pdf">Dr. Gregory Pottie’s CV</a></p>
+
+<div class="search_box">
+  <input class="search_input" oninput="onSearchInput(this)" placeholder="Search" title="Search content on this page" />
+  <button disabled="" data-tooltip="Clear search" onclick="onSearchClear()">
+    <i class="fas fa-search"></i>
+  </button>
+</div>
+
+<div class="search_info"></div>
+
+<h3 id="2023">2023</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://www.techrxiv.org/articles/preprint/Monitoring_Brushing_behaviors_using_Toothbrush_Embedded_Motion-Sensors/22696360">
+        <img src="../images/brushing.png" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.36227/techrxiv.22696360" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://www.techrxiv.org/articles/preprint/Monitoring_Brushing_behaviors_using_Toothbrush_Embedded_Motion-Sensors/22696360">
+        Monitoring Brushing behaviors using Toothbrush Embedded Motion-Sensors
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Mahmoud Essalat, Oscar Hernan Madrid Padilla, Vivek Shetty, Gregory Pottie
+    </div><div class="citation_details">
+      TechRxiv&nbsp; · &nbsp;28 Apr 2023
+    </div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://arxiv.org/abs/2303.03462">
+        <img src="../images/lavae.png" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.48550/arXiv.2207.01575" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://arxiv.org/abs/2303.03462">
+        Towards Composable Distributions of Latent Space Augmentations
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Omead Pooladzandi, Jeffrey Jiang, Sunay Bhat, Gregory Pottie
+    </div><div class="citation_details">
+      Information Theory and Applications Workshop&nbsp; · &nbsp;15 Mar 2023
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Latent&#32;Space&quot;" class="tag" data-tooltip="Show items with the tag &quot;Latent Space&quot;">Latent Space</a><a href="./index.html?search=&quot;tag:&#32;Augmentation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Augmentation&quot;">Augmentation</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2022">2022</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://arxiv.org/pdf/2212.08769.pdf">
+        <img src="../images/LM.png" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.48550/arXiv.2207.01575" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://arxiv.org/pdf/2212.08769.pdf">
+        Improving Levenberg-Marquardt Algorithm for Neural Networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Omead Pooladzandi, Yiming Zhou
+    </div><div class="citation_details">
+      Conference on Neural Information Processing Systems&nbsp; · &nbsp;28 Jun 2022
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Second&#32;Order&#32;Optimization&#32;for&#32;Neural&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Second Order Optimization for Neural Networks&quot;">Second Order Optimization for Neural Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://arxiv.org/pdf/2302.00138.pdf">
+        <img src="../images/LEBMs.png" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.48550/arXiv.2207.01575" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://arxiv.org/pdf/2302.00138.pdf">
+        Generating High Fidelity Synthetic Data via Coreset selection and Entropic Regularization
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Omead Pooladzandi, Pasha Khosravi, Erik Nijkamp, Baharan Mirzasoleiman
+    </div><div class="citation_details">
+      Conference on Neural Information Processing Systems&nbsp; · &nbsp;28 Jun 2022
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Generative&#32;Modeling&quot;" class="tag" data-tooltip="Show items with the tag &quot;Generative Modeling&quot;">Generative Modeling</a><a href="./index.html?search=&quot;tag:&#32;&#32;Latent&#32;Energy&#32;Based&#32;Models&quot;" class="tag" data-tooltip="Show items with the tag &quot; Latent Energy Based Models&quot;"> Latent Energy Based Models</a><a href="./index.html?search=&quot;tag:&#32;&#32;Coreset&#32;Selection&quot;" class="tag" data-tooltip="Show items with the tag &quot; Coreset Selection&quot;"> Coreset Selection</a><a href="./index.html?search=&quot;tag:&#32;&#32;Self-Supervised&#32;Learning&quot;" class="tag" data-tooltip="Show items with the tag &quot; Self-Supervised Learning&quot;"> Self-Supervised Learning</a><a href="./index.html?search=&quot;tag:&#32;&#32;Semi-Supervised&#32;Learning&quot;" class="tag" data-tooltip="Show items with the tag &quot; Semi-Supervised Learning&quot;"> Semi-Supervised Learning</a><a href="./index.html?search=&quot;tag:&#32;&#32;Contrastive&#32;Learning&quot;" class="tag" data-tooltip="Show items with the tag &quot; Contrastive Learning&quot;"> Contrastive Learning</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://proceedings.mlr.press/v162/pooladzandi22a/pooladzandi22a.pdf">
+        <img src="../images/adacore.png" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.48550/arXiv.2207.01575" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://proceedings.mlr.press/v162/pooladzandi22a/pooladzandi22a.pdf">
+        Adaptive second order coresets for data-efficient machine learning
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Omead Pooladzandi, David Davini, Baharan Mirzasoleiman
+    </div><div class="citation_details">
+      International Conference on Machine Learning&nbsp; · &nbsp;28 Jun 2022
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Coreset&#32;Selection&quot;" class="tag" data-tooltip="Show items with the tag &quot;Coreset Selection&quot;">Coreset Selection</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://arxiv.org/abs/2210.11275">
+        <img src="../images/CSHTest.png" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.48550/arxiv.2210.11275" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://arxiv.org/abs/2210.11275">
+        Causal Structural Hypothesis Testing and Data Generation Models
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Jeffrey Jiang, Omead Pooladzandi, Sunay Bhat, Gregory Pottie
+    </div><div class="citation_details">
+      NeurIPS 2022 Workshop on Synthetic Data for Empowering ML Research&nbsp; · &nbsp;06 Dec 2022
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Causal&#32;Deep&#32;Learning&quot;" class="tag" data-tooltip="Show items with the tag &quot;Causal Deep Learning&quot;">Causal Deep Learning</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://arxiv.org/abs/2207.01575">
+        <img src="../images/debias.png" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.48550/arXiv.2207.01575" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://arxiv.org/abs/2207.01575">
+        De-Biasing Generative Models using Counterfactual Methods
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Sunay Bhat, Jeffrey Jiang, Omead Pooladzandi, Gregory Pottie
+    </div><div class="citation_details">
+      Information Theory and Applications Workshop&nbsp; · &nbsp;04 Jul 2022
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Causal&#32;Deep&#32;Learning&quot;" class="tag" data-tooltip="Show items with the tag &quot;Causal Deep Learning&quot;">Causal Deep Learning</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2020">2020</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/9084102">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/TE.2020.2984900" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/9084102">
+        Predicting Student Performance in an Educational Game Using a Hidden Markov Model
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Manie Tadayon, Gregory Pottie
+    </div><div class="citation_details">
+      IEEE Transactions on Education&nbsp; · &nbsp;01 Nov 2020
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Hidden&#32;Markov&#32;Model&quot;" class="tag" data-tooltip="Show items with the tag &quot;Hidden Markov Model&quot;">Hidden Markov Model</a><a href="./index.html?search=&quot;tag:&#32;Educational&#32;Game&quot;" class="tag" data-tooltip="Show items with the tag &quot;Educational Game&quot;">Educational Game</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://dl.acm.org/doi/10.1145/3361561">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1145/3361561" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://dl.acm.org/doi/10.1145/3361561">
+        Transformation in Healthcare by Wearable Devices for Diagnostics and Guidance of Treatment
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Aman Mahajan, Gregory Pottie, William Kaiser
+    </div><div class="citation_details">
+      ACM Transactions on Computing for Healthcare&nbsp; · &nbsp;02 Mar 2020
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Wearable&#32;Devices&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wearable Devices&quot;">Wearable Devices</a><a href="./index.html?search=&quot;tag:&#32;Healthcare&quot;" class="tag" data-tooltip="Show items with the tag &quot;Healthcare&quot;">Healthcare</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2019">2019</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/8651537">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/TTHZ.2019.2901602" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/8651537">
+        Extending Spatial and Temporal Characterization of Indoor Wireless Channels From 350 to 650 GHz
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Heng Zhao, Leihao Wei, Mona Jarrahi, Gregory Pottie
+    </div><div class="citation_details">
+      IEEE Transactions on Terahertz Science and Technology&nbsp; · &nbsp;01 May 2019
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Terahertz&quot;" class="tag" data-tooltip="Show items with the tag &quot;Terahertz&quot;">Terahertz</a><a href="./index.html?search=&quot;tag:&#32;Wireless&#32;Channel&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wireless Channel&quot;">Wireless Channel</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2018">2018</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/8690920">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/VTCFall.2018.8690920" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/8690920">
+        The Distribution of SINR and the Achieved Throughput in Interference Alignment Under a Gauss Markov Channel
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Hemant Saggar, Babak Daneshrad, Gregory Pottie
+    </div><div class="citation_details">
+      IEEE 88th Vehicular Technology Conference (VTC-Fall)&nbsp; · &nbsp;27 Aug 2018
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Interference&#32;Alignment&quot;" class="tag" data-tooltip="Show items with the tag &quot;Interference Alignment&quot;">Interference Alignment</a><a href="./index.html?search=&quot;tag:&#32;SINR&quot;" class="tag" data-tooltip="Show items with the tag &quot;SINR&quot;">SINR</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2017">2017</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/8170847">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/MILCOM.2017.8170847" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/8170847">
+        Experimental results for low overhead frequency offset estimation in MANETs with concurrent transmission
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Ehsan Keramat, Nicholas Kauffroath, Kia Karbasi, Heng Zhao, Babak Daneshrad, Gregory Pottie
+    </div><div class="citation_details">
+      IEEE Military Communications Conference (MILCOM)&nbsp; · &nbsp;23 Oct 2017
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;MANET&quot;" class="tag" data-tooltip="Show items with the tag &quot;MANET&quot;">MANET</a><a href="./index.html?search=&quot;tag:&#32;Synchronization&quot;" class="tag" data-tooltip="Show items with the tag &quot;Synchronization&quot;">Synchronization</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/7880688">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/TWC.2017.2682840" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/7880688">
+        A Practical Approach to Joint Timing, Frequency Synchronization and Channel Estimation for Concurrent Transmissions in a MANET
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Yi Jiang, Babak Daneshrad, Gregory Pottie
+    </div><div class="citation_details">
+      IEEE Transactions on Wireless Communications&nbsp; · &nbsp;17 Mar 2017
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;MANET&quot;" class="tag" data-tooltip="Show items with the tag &quot;MANET&quot;">MANET</a><a href="./index.html?search=&quot;tag:&#32;Synchronization&quot;" class="tag" data-tooltip="Show items with the tag &quot;Synchronization&quot;">Synchronization</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2016">2016</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/7516289">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/BSN.2016.7516289" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/7516289">
+        A double-layer automatic orientation correction method for human activity recognition
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Xiaoxu Wu, Xiaoyu Xu, Yan Wang, William Kaiser, Gregory Pottie
+    </div><div class="citation_details">
+      IEEE International Conference on Wearable and Implantable Body Sensor Networks (BSN)&nbsp; · &nbsp;14 Jun 2016
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Fusion&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Fusion&quot;">Sensor Fusion</a><a href="./index.html?search=&quot;tag:&#32;Human&#32;Activity&#32;Recognition&quot;" class="tag" data-tooltip="Show items with the tag &quot;Human Activity Recognition&quot;">Human Activity Recognition</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2015">2015</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/7357602">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/MILCOM.2015.7357602" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/7357602">
+        Initial acquisition for MANET with simultaneous transmissions
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Yi Jiang, Babak Daneshrad, Gregory Pottie
+    </div><div class="citation_details">
+      IEEE Military Communications Conference&nbsp; · &nbsp;28 Oct 2015
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;MANET&quot;" class="tag" data-tooltip="Show items with the tag &quot;MANET&quot;">MANET</a><a href="./index.html?search=&quot;tag:&#32;Simultaneous&#32;Transmissions&quot;" class="tag" data-tooltip="Show items with the tag &quot;Simultaneous Transmissions&quot;">Simultaneous Transmissions</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://dl.acm.org/doi/10.1145/2811780.2811927">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1145/2811780.2811927" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://dl.acm.org/doi/10.1145/2811780.2811927">
+        Opportunistic calibration of sensor orientation using the Kinect and inertial measurement unit sensor fusion
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Hua-I Chang, Vivek Desai, Oscar Santana, Matthew Dempsey, Anchi Su, John Goodlad, Faraz Aghazadeh, Gregory Pottie
+    </div><div class="citation_details">
+      Proceedings of the conference on Wireless Health&nbsp; · &nbsp;14 Oct 2015
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Fusion&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Fusion&quot;">Sensor Fusion</a><a href="./index.html?search=&quot;tag:&#32;Kinect&quot;" class="tag" data-tooltip="Show items with the tag &quot;Kinect&quot;">Kinect</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/7037171">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/GLOCOM.2014.7037171" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/7037171">
+        Context-driven online learning for activity classification in wireless health
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      J. Xu, J. Xu, L. Song, G. Pottie, M. van der Schaar
+    </div><div class="citation_details">
+      IEEE Transactions on Biomedical Engineering&nbsp; · &nbsp;12 Feb 2015
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Activity&#32;Classification&quot;" class="tag" data-tooltip="Show items with the tag &quot;Activity Classification&quot;">Activity Classification</a><a href="./index.html?search=&quot;tag:&#32;Wireless&#32;Health&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wireless Health&quot;">Wireless Health</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2014">2014</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6944963">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/EMBC.2014.6944963" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6944963">
+        A simple calibration for upper limb motion tracking and reconstruction
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Wang, J. Xu, X. Wu, G. Pottie, W. Kaiser
+    </div><div class="citation_details">
+      Annual International Conference of the IEEE Engineering in Medicine and Biology Society&nbsp; · &nbsp;06 Sep 2014
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Motion&#32;Tracking&quot;" class="tag" data-tooltip="Show items with the tag &quot;Motion Tracking&quot;">Motion Tracking</a><a href="./index.html?search=&quot;tag:&#32;Motion&#32;Reconstruction&quot;" class="tag" data-tooltip="Show items with the tag &quot;Motion Reconstruction&quot;">Motion Reconstruction</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2013">2013</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://dl.acm.org/doi/abs/10.4108/icst.bodynets.2013.253556">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.4108/icst.bodynets.2013.253556" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://dl.acm.org/doi/abs/10.4108/icst.bodynets.2013.253556">
+        Inertial Sensor Based Motion Trajectory Visualization and Quantitative Quality Assessment of Hemiparetic Gait
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Wang, C. Chien, J. Xu, X. Wu, G. Pottie, W. Kaiser
+    </div><div class="citation_details">
+      BodyNets '13: Proceedings of the 8th International Conference on Body Area Networks
+&nbsp; · &nbsp;30 Sep 2013
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Gait&#32;Analysis&quot;" class="tag" data-tooltip="Show items with the tag &quot;Gait Analysis&quot;">Gait Analysis</a><a href="./index.html?search=&quot;tag:&#32;3D&#32;Motion&#32;Reconstruction&quot;" class="tag" data-tooltip="Show items with the tag &quot;3D Motion Reconstruction&quot;">3D Motion Reconstruction</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6637792">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICASSP-2013-Chien-Xia-Santana-Wang-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6637792">
+        Non-linear Complementary Filter Based Upper Limb Motion Tracking Using Wearable Sensors
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      C. Chien, J. Xia, O. Santana, Y. Wang, G. Pottie
+    </div><div class="citation_details">
+      IEEE ICASSP&nbsp; · &nbsp;26 May 2013
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Non-linear&#32;Complementary&#32;Filter&quot;" class="tag" data-tooltip="Show items with the tag &quot;Non-linear Complementary Filter&quot;">Non-linear Complementary Filter</a><a href="./index.html?search=&quot;tag:&#32;Upper&#32;Limb&#32;Motion&#32;Tracking&quot;" class="tag" data-tooltip="Show items with the tag &quot;Upper Limb Motion Tracking&quot;">Upper Limb Motion Tracking</a><a href="./index.html?search=&quot;tag:&#32;Wearable&#32;Sensors&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wearable Sensors&quot;">Wearable Sensors</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6637808">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/ICASSP.2013.6637808" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6637808">
+        Gait analysis using 3D motion reconstruction with an activity-specific tracking protocol
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Wang, C. Chien, J. Xu, G. Pottie, W. Kaiser
+    </div><div class="citation_details">
+      IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp; · &nbsp;21 May 2013
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Gait&#32;Analysis&quot;" class="tag" data-tooltip="Show items with the tag &quot;Gait Analysis&quot;">Gait Analysis</a><a href="./index.html?search=&quot;tag:&#32;3D&#32;Motion&#32;Reconstruction&quot;" class="tag" data-tooltip="Show items with the tag &quot;3D Motion Reconstruction&quot;">3D Motion Reconstruction</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/abstract/document/6575487">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="BSN-2013-Chang-Chien-Xu-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/abstract/document/6575487">
+        Context-guided universal hybrid decision tree for activity classification
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H-I Chang, C. Chien, J.Y. Xu, G. J. Pottie
+    </div><div class="citation_details">
+      IEEE International Conference on Body Sensor Networks&nbsp; · &nbsp;06 May 2013
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Context-guided&quot;" class="tag" data-tooltip="Show items with the tag &quot;Context-guided&quot;">Context-guided</a><a href="./index.html?search=&quot;tag:&#32;Universal&#32;Hybrid&#32;Decision&#32;Tree&quot;" class="tag" data-tooltip="Show items with the tag &quot;Universal Hybrid Decision Tree&quot;">Universal Hybrid Decision Tree</a><a href="./index.html?search=&quot;tag:&#32;Activity&#32;Classification&quot;" class="tag" data-tooltip="Show items with the tag &quot;Activity Classification&quot;">Activity Classification</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6575504">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="BSN-2013-Wu-Wang-Chien-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6575504">
+        Self-Calibration of sensor misplacement based on motion signatures
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      X. Wu, Y. Wang, C. Chien, G. Pottie
+    </div><div class="citation_details">
+      IEEE International Conference on Body Sensor Networks&nbsp; · &nbsp;06 May 2013
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Self-Calibration&quot;" class="tag" data-tooltip="Show items with the tag &quot;Self-Calibration&quot;">Self-Calibration</a><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Misplacement&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Misplacement&quot;">Sensor Misplacement</a><a href="./index.html?search=&quot;tag:&#32;Motion&#32;Signatures&quot;" class="tag" data-tooltip="Show items with the tag &quot;Motion Signatures&quot;">Motion Signatures</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="./index.html?search=&quot;tag:&#32;Augmentation&quot;">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ITA-2013-Chien-Xu-Chang-Wu-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="./index.html?search=&quot;tag:&#32;Augmentation&quot;">
+        Model construction for human motion classification using inertial sensors
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      C.C. Chien, J.Y. Xu, H-I Chang, X. Wu, G. J. Pottie
+    </div><div class="citation_details">
+      IEEE Workshop on Information Theory and Applications&nbsp; · &nbsp;01 Feb 2013
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Model&#32;Construction&quot;" class="tag" data-tooltip="Show items with the tag &quot;Model Construction&quot;">Model Construction</a><a href="./index.html?search=&quot;tag:&#32;Human&#32;Motion&#32;Classification&quot;" class="tag" data-tooltip="Show items with the tag &quot;Human Motion Classification&quot;">Human Motion Classification</a><a href="./index.html?search=&quot;tag:&#32;Inertial&#32;Sensors&quot;" class="tag" data-tooltip="Show items with the tag &quot;Inertial Sensors&quot;">Inertial Sensors</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2012">2012</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6347527">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="EMBC-2012-Chehade-Ozisik-Gomez-Ramos-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6347527">
+        Detecting stumbles with a single accelerometer
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      N. Hajj Chehade, A.P. Ozisik, J. Gomez, F. Ramos, G. Pottie
+    </div><div class="citation_details">
+      IEEE Engineering in Medicine and Biology Society Conference&nbsp; · &nbsp;28 Aug 2012
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Stumbles&quot;" class="tag" data-tooltip="Show items with the tag &quot;Stumbles&quot;">Stumbles</a><a href="./index.html?search=&quot;tag:&#32;Single&#32;Accelerometer&quot;" class="tag" data-tooltip="Show items with the tag &quot;Single Accelerometer&quot;">Single Accelerometer</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6346368">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="EMBC-2012-Friedman-Chehade-Chien-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6346368">
+        Estimation of accelerometer orientation for activity recognition
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Friedman, N. Hajj Chehade, C. Chien, G. Pottie
+    </div><div class="citation_details">
+      IEEE Engineering in Medicine and Biology Society Conference&nbsp; · &nbsp;28 Aug 2012
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Accelerometer&#32;Orientation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Accelerometer Orientation&quot;">Accelerometer Orientation</a><a href="./index.html?search=&quot;tag:&#32;Activity&#32;Recognition&quot;" class="tag" data-tooltip="Show items with the tag &quot;Activity Recognition&quot;">Activity Recognition</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/23366079/">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="EMBC-2012-Chien-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://pubmed.ncbi.nlm.nih.gov/23366079/">
+        A universal hybrid decision tree classifier for human activity classification
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      C. Chien, G. Pottie
+    </div><div class="citation_details">
+      IEEE Engineering in Medicine and Biology Society Conference&nbsp; · &nbsp;28 Aug 2012
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Universal&#32;Hybrid&#32;Decision&#32;Tree&quot;" class="tag" data-tooltip="Show items with the tag &quot;Universal Hybrid Decision Tree&quot;">Universal Hybrid Decision Tree</a><a href="./index.html?search=&quot;tag:&#32;Human&#32;Activity&#32;Classification&quot;" class="tag" data-tooltip="Show items with the tag &quot;Human Activity Classification&quot;">Human Activity Classification</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6288232">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICASSP-2012-Fish-Khan-Chehade-Chien-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6288232">
+        Feature selection based on mutual information for human activity recognition
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      B. Fish, A. Khan, N.H. Chehade, C. Chien, G. Pottie
+    </div><div class="citation_details">
+      IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp; · &nbsp;25 Mar 2012
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Feature&#32;Selection&quot;" class="tag" data-tooltip="Show items with the tag &quot;Feature Selection&quot;">Feature Selection</a><a href="./index.html?search=&quot;tag:&#32;Mutual&#32;Information&quot;" class="tag" data-tooltip="Show items with the tag &quot;Mutual Information&quot;">Mutual Information</a><a href="./index.html?search=&quot;tag:&#32;Human&#32;Activity&#32;Recognition&quot;" class="tag" data-tooltip="Show items with the tag &quot;Human Activity Recognition&quot;">Human Activity Recognition</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2011">2011</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://dl.acm.org/doi/10.1145/2077546.2077559">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="WirelessHealth-2011-Xu-Sun-Wang-Kaiser-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://dl.acm.org/doi/10.1145/2077546.2077559">
+        Context guided and personalized activity classification system
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      J.Y. Xu, Y. Sun, Z. Wang, W.J. Kaiser, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE Wireless Health&nbsp; · &nbsp;10 Oct 2011
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Context&#32;Guided&quot;" class="tag" data-tooltip="Show items with the tag &quot;Context Guided&quot;">Context Guided</a><a href="./index.html?search=&quot;tag:&#32;Personalized&#32;Activity&#32;Classification&quot;" class="tag" data-tooltip="Show items with the tag &quot;Personalized Activity Classification&quot;">Personalized Activity Classification</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6085396">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="WiMob-2011-Bandari-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6085396">
+        Interference Concentration for Uplink in MultiCell OFDMA Networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      D. Bandari, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE WiMob&nbsp; · &nbsp;10 Oct 2011
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Interference&#32;Concentration&quot;" class="tag" data-tooltip="Show items with the tag &quot;Interference Concentration&quot;">Interference Concentration</a><a href="./index.html?search=&quot;tag:&#32;Uplink&quot;" class="tag" data-tooltip="Show items with the tag &quot;Uplink&quot;">Uplink</a><a href="./index.html?search=&quot;tag:&#32;MultiCell&#32;OFDMA&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;MultiCell OFDMA Networks&quot;">MultiCell OFDMA Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/6033790">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ISIT-2011-Zhao-Tan-Avestimehr-Diggavi-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/6033790">
+        On the sum-capacity with successive decoding in interference channels
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Zhao, C.W. Tan, A.S. Avestimehr, S.N. Diggavi, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE International Symposium on Information Theory&nbsp; · &nbsp;01 Jul 2011
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Sum-Capacity&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sum-Capacity&quot;">Sum-Capacity</a><a href="./index.html?search=&quot;tag:&#32;Successive&#32;Decoding&quot;" class="tag" data-tooltip="Show items with the tag &quot;Successive Decoding&quot;">Successive Decoding</a><a href="./index.html?search=&quot;tag:&#32;Interference&#32;Channels&quot;" class="tag" data-tooltip="Show items with the tag &quot;Interference Channels&quot;">Interference Channels</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/5962728">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICC-2011-Zhao-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/5962728">
+        Interference strength alignment and channel allocation in linear cellular networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Zhao, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE International Conference on Communications&nbsp; · &nbsp;05 Jun 2011
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Interference&#32;Strength&#32;Alignment&quot;" class="tag" data-tooltip="Show items with the tag &quot;Interference Strength Alignment&quot;">Interference Strength Alignment</a><a href="./index.html?search=&quot;tag:&#32;Channel&#32;Allocation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Channel Allocation&quot;">Channel Allocation</a><a href="./index.html?search=&quot;tag:&#32;Linear&#32;Cellular&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Linear Cellular Networks&quot;">Linear Cellular Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/5946934">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICASSP-2011-Ruchansky-Lochner-Do-Rawls-Chehade-Chien-Pottie-Kaiser" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/5946934">
+        Monitoring workspace activities using accelerometers
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      N. Ruchansky, C. Lochner, E. Do, T. Rawls, N. Hajj Chehade, J. Chien, G. Pottie, W. Kaiser
+    </div><div class="citation_details">
+      https://www.researchgate.net/publication/220734474_Monitoring_workspace_activities_using_accelerometers&nbsp; · &nbsp;22 May 2011
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Workspace&#32;Activities&quot;" class="tag" data-tooltip="Show items with the tag &quot;Workspace Activities&quot;">Workspace Activities</a><a href="./index.html?search=&quot;tag:&#32;Accelerometers&quot;" class="tag" data-tooltip="Show items with the tag &quot;Accelerometers&quot;">Accelerometers</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/5779447">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="WCNC-2011-Bandari-Frossard-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/5779447">
+        An adaptive cross-layer resource allocation scheme for correlated wireless video sources
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      D. Bandari, P. Frossard, G. Pottie
+    </div><div class="citation_details">
+      IEEE Wireless Communications and Networking Conference&nbsp; · &nbsp;28 Mar 2011
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Cross-Layer&#32;Resource&#32;Allocation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Cross-Layer Resource Allocation&quot;">Cross-Layer Resource Allocation</a><a href="./index.html?search=&quot;tag:&#32;Correlated&#32;Wireless&#32;Video&#32;Sources&quot;" class="tag" data-tooltip="Show items with the tag &quot;Correlated Wireless Video Sources&quot;">Correlated Wireless Video Sources</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/5743598">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ITA-2011-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/5743598">
+        Fair resource allocation in one-dimensional cellular systems
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G.J. Pottie
+    </div><div class="citation_details">
+      IEEE Information Theory and Applications Workshop&nbsp; · &nbsp;06 Feb 2011
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Fair&#32;Resource&#32;Allocation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Fair Resource Allocation&quot;">Fair Resource Allocation</a><a href="./index.html?search=&quot;tag:&#32;One-Dimensional&#32;Cellular&#32;Systems&quot;" class="tag" data-tooltip="Show items with the tag &quot;One-Dimensional Cellular Systems&quot;">One-Dimensional Cellular Systems</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2010">2010</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/5454096">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ITA-2010-Zhao-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/5454096">
+        Optimization of power and channel allocation using the deterministic channel model
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Zhao, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE Information Theory and Applications Workshop&nbsp; · &nbsp;31 Jan 2010
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Power&#32;Allocation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Power Allocation&quot;">Power Allocation</a><a href="./index.html?search=&quot;tag:&#32;Channel&#32;Allocation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Channel Allocation&quot;">Channel Allocation</a><a href="./index.html?search=&quot;tag:&#32;Deterministic&#32;Channel&#32;Model&quot;" class="tag" data-tooltip="Show items with the tag &quot;Deterministic Channel Model&quot;">Deterministic Channel Model</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2009">2009</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/5205890">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ISIT-2009-Zhao-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/5205890">
+        Optimal spectrum management in multi-user interference channels
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Zhao, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE International Symposium on Information Theory&nbsp; · &nbsp;28 Jun 2009
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Spectrum&#32;Management&quot;" class="tag" data-tooltip="Show items with the tag &quot;Spectrum Management&quot;">Spectrum Management</a><a href="./index.html?search=&quot;tag:&#32;Multi-User&#32;Interference&#32;Channels&quot;" class="tag" data-tooltip="Show items with the tag &quot;Multi-User Interference Channels&quot;">Multi-User Interference Channels</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=34fe511e8086be92dc51763f3792c4f236179ba8">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ITA-2009-Zhao-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=34fe511e8086be92dc51763f3792c4f236179ba8">
+        Optimal spectrum management in two-user symmetric interference channels
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Zhao, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE Information Theory and Applications Workshop&nbsp; · &nbsp;09 Feb 2009
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Spectrum&#32;Management&quot;" class="tag" data-tooltip="Show items with the tag &quot;Spectrum Management&quot;">Spectrum Management</a><a href="./index.html?search=&quot;tag:&#32;Interference&#32;Channels&quot;" class="tag" data-tooltip="Show items with the tag &quot;Interference Channels&quot;">Interference Channels</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2008">2008</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/abstract/document/4526364">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Aerosense-2008-Pandya-Kansal-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/abstract/document/4526364">
+        Goodput and delay in networks with controlled mobility
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Pandya, A. Kansal, G. Pottie
+    </div><div class="citation_details">
+      IEEE Aerospace Conference&nbsp; · &nbsp;01 Mar 2008
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Goodput&quot;" class="tag" data-tooltip="Show items with the tag &quot;Goodput&quot;">Goodput</a><a href="./index.html?search=&quot;tag:&#32;Delay&quot;" class="tag" data-tooltip="Show items with the tag &quot;Delay&quot;">Delay</a><a href="./index.html?search=&quot;tag:&#32;Controlled&#32;Mobility&quot;" class="tag" data-tooltip="Show items with the tag &quot;Controlled Mobility&quot;">Controlled Mobility</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/6943/1/Design-of-trustworthy-fielded-sensor-networks/10.1117/12.786264.full?SSO=1">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="SPIE-2008-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/6943/1/Design-of-trustworthy-fielded-sensor-networks/10.1117/12.786264.full?SSO=1">
+        Design of trustworthy fielded sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G.J. Pottie
+    </div><div class="citation_details">
+      SPIE Defense and Security Symposium&nbsp; · &nbsp;01 Mar 2008
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Trustworthy&#32;Fielded&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Trustworthy Fielded Sensor Networks&quot;">Trustworthy Fielded Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/4509981">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="CogART-2008-Hu-Gerla-Vlantis-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/4509981">
+        Efficient, flexible, and scalable inter-network spectrum sharing and communications in cognitive IEEE 802.22 networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      W. Hu, M. Gerla, G.A. Vlantis, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE International Workshop on Cognitive Radio and Advanced Spectrum Management&nbsp; · &nbsp;01 Feb 2008
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Spectrum&#32;Sharing&quot;" class="tag" data-tooltip="Show items with the tag &quot;Spectrum Sharing&quot;">Spectrum Sharing</a><a href="./index.html?search=&quot;tag:&#32;Cognitive&#32;Radio&quot;" class="tag" data-tooltip="Show items with the tag &quot;Cognitive Radio&quot;">Cognitive Radio</a><a href="./index.html?search=&quot;tag:&#32;IEEE&#32;802.22&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;IEEE 802.22 Networks&quot;">IEEE 802.22 Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/4601058">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ITA-2008-Tong-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/4601058">
+        The marginal utility of cooperation in sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y.-C. Tong, G.J. Pottie
+    </div><div class="citation_details">
+      IEEE Information Theory and Applications Workshop&nbsp; · &nbsp;27 Jan 2008
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Marginal&#32;Utility&quot;" class="tag" data-tooltip="Show items with the tag &quot;Marginal Utility&quot;">Marginal Utility</a><a href="./index.html?search=&quot;tag:&#32;Cooperation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Cooperation&quot;">Cooperation</a><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Networks&quot;">Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2007">2007</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/6943/1/Design-of-trustworthy-fielded-sensor-networks/10.1117/12.786264.full">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="SMC-2007-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/6943/1/Design-of-trustworthy-fielded-sensor-networks/10.1117/12.786264.full">
+        Design of trustworthy fielded sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G. Pottie
+    </div><div class="citation_details">
+      IEEE Conf. On Systems, Man and Cybernetics&nbsp; · &nbsp;07 Oct 2007
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Trustworthy&#32;Fielded&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Trustworthy Fielded Sensor Networks&quot;">Trustworthy Fielded Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/4557293">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ISIT-2007-Ni-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/4557293">
+        Bayesian Selection of Non-Faulty Sensors
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      K. Ni, G. Pottie
+    </div><div class="citation_details">
+      IEEE International Symposium on Information Theory&nbsp; · &nbsp;24 Jun 2007
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Bayesian&#32;Selection&quot;" class="tag" data-tooltip="Show items with the tag &quot;Bayesian Selection&quot;">Bayesian Selection</a><a href="./index.html?search=&quot;tag:&#32;Non-Faulty&#32;Sensors&quot;" class="tag" data-tooltip="Show items with the tag &quot;Non-Faulty Sensors&quot;">Non-Faulty Sensors</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/4217215">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICASSP-2007-Luo-Kong-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/4217215">
+        An Adaptive Algorithm for Sampling Two-Dimensional Field Using Mobile Sensors
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H. Luo, X. Kong, G. Pottie
+    </div><div class="citation_details">
+      IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp; · &nbsp;15 Apr 2007
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Sampling&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sampling&quot;">Sampling</a><a href="./index.html?search=&quot;tag:&#32;Mobile&#32;Sensors&quot;" class="tag" data-tooltip="Show items with the tag &quot;Mobile Sensors&quot;">Mobile Sensors</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2006">2006</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://dl.acm.org/doi/10.1145/1182807.1182813">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="SenSys-2006-Kansal-Kaiser-Pottie-Srivastava-Sukhatme" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://dl.acm.org/doi/10.1145/1182807.1182813">
+        Virtual high-resolution for sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Kansal, W. Kaiser, G. Pottie, M. Srivastava, G. Sukhatme
+    </div><div class="citation_details">
+      ACM Conference on Embedded Networked Sensor Systems&nbsp; · &nbsp;31 Oct 2006
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Virtual&#32;High-Resolution&quot;" class="tag" data-tooltip="Show items with the tag &quot;Virtual High-Resolution&quot;">Virtual High-Resolution</a><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Networks&quot;">Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1661108">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICASSP-2006-Kong-Pon-Kaiser-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1661108">
+        Environmental Sampling with Multiscale Sensing
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      X. Kong, R. Pon, W. Kaiser, G. Pottie
+    </div><div class="citation_details">
+      IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp; · &nbsp;14 May 2006
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Environmental&#32;Sampling&quot;" class="tag" data-tooltip="Show items with the tag &quot;Environmental Sampling&quot;">Environmental Sampling</a><a href="./index.html?search=&quot;tag:&#32;Multiscale&#32;Sensing&quot;" class="tag" data-tooltip="Show items with the tag &quot;Multiscale Sensing&quot;">Multiscale Sensing</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2005">2005</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1578304">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="GLOBECOM-2005-Luo-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1578304">
+        A study on combined routing and source coding with explicit side information in sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H. Luo, G. Pottie
+    </div><div class="citation_details">
+      IEEE Global Telecommunications Conference&nbsp; · &nbsp;27 Nov 2005
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Routing&quot;" class="tag" data-tooltip="Show items with the tag &quot;Routing&quot;">Routing</a><a href="./index.html?search=&quot;tag:&#32;Source&#32;Coding&quot;" class="tag" data-tooltip="Show items with the tag &quot;Source Coding&quot;">Source Coding</a><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Networks&quot;">Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1523281">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ISIT-2005-Kansal-Ramamoorthy-Pottie-Srivastava" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1523281">
+        On sensor Network Lifetime and Data Distortion
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Kansal, A. Ramamoorthy, G. Pottie, M. Srivastava
+    </div><div class="citation_details">
+      IEEE International Symposium on Information Theory&nbsp; · &nbsp;05 Sep 2005
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Network&#32;Lifetime&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Network Lifetime&quot;">Sensor Network Lifetime</a><a href="./index.html?search=&quot;tag:&#32;Data&#32;Distortion&quot;" class="tag" data-tooltip="Show items with the tag &quot;Data Distortion&quot;">Data Distortion</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1523283">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ISIT-2005-Luo-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1523283">
+        Balanced aggregation trees for routing correlated data in wireless sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H. Luo, G. Pottie
+    </div><div class="citation_details">
+      IEEE International Symposium on Information Theory&nbsp; · &nbsp;04 Sep 2005
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Balanced&#32;Aggregation&#32;Trees&quot;" class="tag" data-tooltip="Show items with the tag &quot;Balanced Aggregation Trees&quot;">Balanced Aggregation Trees</a><a href="./index.html?search=&quot;tag:&#32;Routing&quot;" class="tag" data-tooltip="Show items with the tag &quot;Routing&quot;">Routing</a><a href="./index.html?search=&quot;tag:&#32;Wireless&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wireless Sensor Networks&quot;">Wireless Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://escholarship.org/uc/item/16p544bm">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="DCOSS-2005-Luo-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://escholarship.org/uc/item/16p544bm">
+        Routing explicit side information for data compression in wireless sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H. Luo, G. Pottie
+    </div><div class="citation_details">
+      International Conference on Distributed Computing in Sensor Systems&nbsp; · &nbsp;30 Jun 2005
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Routing&quot;" class="tag" data-tooltip="Show items with the tag &quot;Routing&quot;">Routing</a><a href="./index.html?search=&quot;tag:&#32;Data&#32;Compression&quot;" class="tag" data-tooltip="Show items with the tag &quot;Data Compression&quot;">Data Compression</a><a href="./index.html?search=&quot;tag:&#32;Wireless&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wireless Sensor Networks&quot;">Wireless Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1415796">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICASSP-2005-Luo-Tong-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1415796">
+        A two-stage DPCM scheme for wireless sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H. Luo, Y. Tong, G. Pottie
+    </div><div class="citation_details">
+      IEEE International Conference on Acoustics, Speech and Signal Processing&nbsp; · &nbsp;18 Mar 2005
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;DPCM&quot;" class="tag" data-tooltip="Show items with the tag &quot;DPCM&quot;">DPCM</a><a href="./index.html?search=&quot;tag:&#32;Wireless&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wireless Sensor Networks&quot;">Wireless Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2004">2004</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1399306">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Asilomar-2004-Pandya-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1399306">
+        Bounds on achievable rates for cooperative channel coding
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Pandya, G. Pottie
+    </div><div class="citation_details">
+      IEEE Asilomar Conference on Signals, Systems and Computers&nbsp; · &nbsp;07 Nov 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Channel&#32;Coding&quot;" class="tag" data-tooltip="Show items with the tag &quot;Channel Coding&quot;">Channel Coding</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1399349">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Asilomar-2004-Pandya-Luo-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1399349">
+        Spatial fidelity and estimation in sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Pandya, H. Luo, G. Pottie
+    </div><div class="citation_details">
+      IEEE Asilomar Conference on Signals, Systems and Computers&nbsp; · &nbsp;07 Nov 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Estimation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Estimation&quot;">Estimation</a><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Networks&quot;">Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://escholarship.org/uc/item/1s75j5br">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="SenSys-2004-Batalin-Rahimi-Yu-Liu-Kansal-Sukhatme-Kaiser-Hansen-Pottie-Srivastava-Estrin" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://escholarship.org/uc/item/1s75j5br">
+        Call and response: experiments in sampling the environment
+
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      M. Batalin, M. Rahimi, Y. Yu, D. Liu, A. Kansal, G. Sukhatme, W. Kaiser, M. Hansen, G. Pottie, M. Srivastava, D. Estrin
+    </div><div class="citation_details">
+      ACM Conference on Embedded Networked Sensor Systems&nbsp; · &nbsp;03 Nov 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Sampling&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sampling&quot;">Sampling</a><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Networks&quot;">Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1405270">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ITW-2004-Pandya-Kansal-Pottie-Srivastava" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1405270">
+        Lossy source coding of multiple Gaussian sources: m-helper problem
+
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Pandya, A. Kansal, G. Pottie, M. Srivastava
+    </div><div class="citation_details">
+      IEEE Information Theory Society&nbsp; · &nbsp;24 Oct 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Source&#32;Coding&quot;" class="tag" data-tooltip="Show items with the tag &quot;Source Coding&quot;">Source Coding</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1381896">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="SECON-2004-Kansal-Rahimi-Kaiser-Srivastava-Pottie-Estrin" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1381896">
+        Controlled mobility for sustainable wireless networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Kansal, M. Rahimi, W. Kaiser, M. Srivastava, G. Pottie, D. Estrin
+    </div><div class="citation_details">
+      IEEE Communications Society&nbsp; · &nbsp;04 Oct 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Mobility&quot;" class="tag" data-tooltip="Show items with the tag &quot;Mobility&quot;">Mobility</a><a href="./index.html?search=&quot;tag:&#32;Wireless&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wireless Networks&quot;">Wireless Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1381911">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="SECON-2004-Natkunanathan-Pham-Kaiser-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1381911">
+        Embedded networked sensors: signal search engine for signal classifications
+
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      S. Natkunanathan, J. Pham, W. Kaiser, G. Pottie
+    </div><div class="citation_details">
+      IEEE Communications Society&nbsp; · &nbsp;04 Oct 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Signal&#32;Classification&quot;" class="tag" data-tooltip="Show items with the tag &quot;Signal Classification&quot;">Signal Classification</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://escholarship.org/uc/item/3v07x98q">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Allerton-2004-Pandya-Kansal-Pottie-Srivastava" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://escholarship.org/uc/item/3v07x98q">
+        Fidelity and resource sensitive data gathering
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Pandya, A. Kansal, G. Pottie, M. Srivastava
+    </div><div class="citation_details">
+      [no publisher info]&nbsp; · &nbsp;29 Sep 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Data&#32;Gathering&quot;" class="tag" data-tooltip="Show items with the tag &quot;Data Gathering&quot;">Data Gathering</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1307360">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="IPSN-2004-Kansal-Yuen-Kaiser-Pottie-Srivastava" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1307360">
+        Sensing Uncertainty Reduction Using Low Complexity Actuation
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Kansal, E. Yuen, W. Kaiser, G. Pottie, M. Srivastava
+    </div><div class="citation_details">
+      ACM&nbsp; · &nbsp;26 Apr 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Actuation&quot;" class="tag" data-tooltip="Show items with the tag &quot;Actuation&quot;">Actuation</a><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Networks&quot;">Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1307321">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="IPSN-2004-Wang-Yao-Pottie-Estrin" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1307321">
+        Entropy-based Sensor Selection Heuristic for Localization
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H. Wang, K. Yao, G. Pottie, D. Estrin
+    </div><div class="citation_details">
+      ACM&nbsp; · &nbsp;26 Apr 2004
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Localization&quot;" class="tag" data-tooltip="Show items with the tag &quot;Localization&quot;">Localization</a><a href="./index.html?search=&quot;tag:&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Sensor Networks&quot;">Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2003">2003</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1258402">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Globecom-2003-Chen-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1258402">
+        A comparison of frequency offset tracking algorithms for OFDM
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H. Chen, G. Pottie
+    </div><div class="citation_details">
+      IEEE Communications Society&nbsp; · &nbsp;01 Dec 2003
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;OFDM&quot;" class="tag" data-tooltip="Show items with the tag &quot;OFDM&quot;">OFDM</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1258403">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Globecom-2003-Kim-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1258403">
+        Robust OFDM in fast fading channels
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      S. Kim, G. Pottie
+    </div><div class="citation_details">
+      IEEE Communications Society&nbsp; · &nbsp;01 Dec 2003
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;OFDM&quot;" class="tag" data-tooltip="Show items with the tag &quot;OFDM&quot;">OFDM</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="./index.html?search=&quot;tag:&#32;Augmentation&quot;">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="VTC-2003-Pandya-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="./index.html?search=&quot;tag:&#32;Augmentation&quot;">
+        QoS in Ad Hoc Networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      A. Pandya, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;05 Oct 2003
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Ad&#32;Hoc&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Ad Hoc Networks&quot;">Ad Hoc Networks</a><a href="./index.html?search=&quot;tag:&#32;QoS&quot;" class="tag" data-tooltip="Show items with the tag &quot;QoS&quot;">QoS</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://www.researchgate.net/publication/228559190_Performance_of_OFDM_in_high-mobility_environments">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="SPIE-2003-Thrasher-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://www.researchgate.net/publication/228559190_Performance_of_OFDM_in_high-mobility_environments">
+        Performance of OFDM in high-mobility environments
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      R. Thrasher, G. Pottie
+    </div><div class="citation_details">
+      SPIE&nbsp; · &nbsp;01 Aug 2003
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;OFDM&quot;" class="tag" data-tooltip="Show items with the tag &quot;OFDM&quot;">OFDM</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2002">2002</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="./index.html?search=&quot;tag:&#32;Augmentation&quot;">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="AINS-2002-Thrasher-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="./index.html?search=&quot;tag:&#32;Augmentation&quot;">
+        A mobile vehicle multipath model
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      R. Thrasher, G. Pottie
+    </div><div class="citation_details">
+      AINS&nbsp; · &nbsp;08 May 2002
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Multipath&quot;" class="tag" data-tooltip="Show items with the tag &quot;Multipath&quot;">Multipath</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/1002678">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="VTC-2002-Tu-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/1002678">
+        Coherent cooperative transmission from multiple adjacent antennas to a distant stationary antenna through AWGN channels
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Y. Tu, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;06 May 2002
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Cooperative&#32;Transmission&quot;" class="tag" data-tooltip="Show items with the tag &quot;Cooperative Transmission&quot;">Cooperative Transmission</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2001">2001</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://www.researchgate.net/publication/304121828_Global_stability_of_feedback_power_control_algorithms_for_cellular_radio_networks">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="CDC-2001-Shoarinejad-Paganini-Pottie-Speyer" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://www.researchgate.net/publication/304121828_Global_stability_of_feedback_power_control_algorithms_for_cellular_radio_networks">
+        Global stability of feedback power control algorithms for cellular radio networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      K. Shoarinejad, F. Paganini, G. Pottie, J. Speyer
+    </div><div class="citation_details">
+      IEEE Conf. On Decision and Control&nbsp; · &nbsp;04 Dec 2001
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Power&#32;Control&quot;" class="tag" data-tooltip="Show items with the tag &quot;Power Control&quot;">Power Control</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/966357">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Globecom-2001-Shoarinejad-Speyer-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/966357">
+        A distributed scheme for integrated predictive dynamic channel and power allocation in cellular radio networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      K. Shoarinejad, J. Speyer, G. Pottie
+    </div><div class="citation_details">
+      IEEE Communications Society&nbsp; · &nbsp;25 Nov 2001
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Power&#32;Control&quot;" class="tag" data-tooltip="Show items with the tag &quot;Power Control&quot;">Power Control</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/932252">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="TMTT-2001-Kondylis-DeFlaviis-Pottie-Itoh" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/932252">
+        A memory-efficient formulation of the finite-difference time-domain method for the solution of Maxwell equations
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G. Kondylis, F. De Flaviis, G. Pottie, T. Itoh
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;01 Jul 2001
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;FDTD&quot;" class="tag" data-tooltip="Show items with the tag &quot;FDTD&quot;">FDTD</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/940390">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICASSP-2001-Estrin-Girod-Pottie-Srivastava" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/940390">
+        Instrumenting the world with wireless sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      D. Estrin, L. Girod, G. Pottie, M. Srivastava
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;07 May 2001
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Wireless&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wireless Sensor Networks&quot;">Wireless Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/9011754">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi.org/10.1109/TWC.2020.2974465" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/9011754">
+        Reciprocity Calibration of TDD MIMO Channel for Interference Alignment
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Heng Zhao, Gregory Pottie, Babak Daneshrad
+    </div><div class="citation_details">
+      IEEE Transactions on Wireless Communications&nbsp; · &nbsp;01 May 2001
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Interference&#32;Alignment&quot;" class="tag" data-tooltip="Show items with the tag &quot;Interference Alignment&quot;">Interference Alignment</a><a href="./index.html?search=&quot;tag:&#32;MIMO&quot;" class="tag" data-tooltip="Show items with the tag &quot;MIMO&quot;">MIMO</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2000">2000</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/891312">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Globecom-2000-Connors-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/891312">
+        Response initiated multiple access (RIMA), a medium access control protocol for satellite channels
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      D. Connors, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;27 Nov 2000
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;MAC&quot;" class="tag" data-tooltip="Show items with the tag &quot;MAC&quot;">MAC</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=23080F63081E489533DE2BD900A6703A?doi=10.1.1.570.2444&amp;rep=rep1&amp;type=pdf">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Allerton-2000-Ahmed-Tu-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=23080F63081E489533DE2BD900A6703A?doi=10.1.1.570.2444&amp;rep=rep1&amp;type=pdf">
+        Cooperative detection and communication in wireless sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      M. Ahmed, Y. Tu, G. Pottie
+    </div><div class="citation_details">
+      Allerton Conference&nbsp; · &nbsp;04 Oct 2000
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Wireless&#32;Sensor&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Wireless Sensor Networks&quot;">Wireless Sensor Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/881489">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="PIMRC-2000-Lee-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/881489">
+        Matched filter bounds on q-ary QAM symbol error probability for diversity reception and multipath fading ISI channels
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      H. Lee, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;18 Sep 2000
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Diversity&quot;" class="tag" data-tooltip="Show items with the tag &quot;Diversity&quot;">Diversity</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="hhttps://ieeexplore.ieee.org/document/853377">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICC-2000-Kondylis-Krishnamurthy-Dao-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="hhttps://ieeexplore.ieee.org/document/853377">
+        Multicasting sustained CBR and VBR traffic in wireless ad-hoc networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G. Kondylis, S. Krishnamurthy, S. Dao, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;18 Jun 2000
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Ad&#32;Hoc&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Ad Hoc Networks&quot;">Ad Hoc Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=d18abe3f1ffec6a7c7cc071ae4a54e744cbf5bf1">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="CNDS-2000-Connors-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=d18abe3f1ffec6a7c7cc071ae4a54e744cbf5bf1">
+        The performance of HTTP over satellite random access channels
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      D. Connors, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;23 Jan 2000
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;MAC&quot;" class="tag" data-tooltip="Show items with the tag &quot;MAC&quot;">MAC</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="1999">1999</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/830110">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="Globecom-1999-Kondylis-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/830110">
+        An interference analysis for packet reservation multiple access
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G. Kondylis, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;05 Dec 1999
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;PRMA&quot;" class="tag" data-tooltip="Show items with the tag &quot;PRMA&quot;">PRMA</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://spie.org/Publications/Proceedings/Paper/10.1117/12.367636?SSO=1">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="WASPAA-1999-Yu-Chen-Pottie-Yao" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://spie.org/Publications/Proceedings/Paper/10.1117/12.367636?SSO=1">
+        Blind decorrelation and deconvolution algorithm for multiple input multiple output system
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      T. Yu, D. Chen, G. Pottie, K. Yao
+    </div><div class="citation_details">
+      IEEE Workshop on Appl. Of SP to Audio and Acoustics&nbsp; · &nbsp;01 Oct 1999
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;MIMO&quot;" class="tag" data-tooltip="Show items with the tag &quot;MIMO&quot;">MIMO</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/abstract/document/798631">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="VTC-1999-Sohrabi-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/abstract/document/798631">
+        Performance of a novel self-organization protocol for wireless ad-hoc sensor networks
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      K. Sohrabi, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;19 Sep 1999
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Ad&#32;Hoc&#32;Networks&quot;" class="tag" data-tooltip="Show items with the tag &quot;Ad Hoc Networks&quot;">Ad Hoc Networks</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/800301">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="VTC-1999-Kondylis-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/800301">
+        Dynamic channel allocation strategies for wireless packet access
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G. Kondylis, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;19 Sep 1999
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;MAC&quot;" class="tag" data-tooltip="Show items with the tag &quot;MAC&quot;">MAC</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/801493">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="VTC-1999-Kondylis-DeFlaviis-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/801493">
+        Indoor channel characterization for wireless communications using reduced finite difference time domain (R-FDTD)
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G. Kondylis, F. DeFlaviis, G. Pottie
+    </div><div class="citation_details">
+      IEEE VTC&nbsp; · &nbsp;19 Sep 1999
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Channel&#32;Modeling&quot;" class="tag" data-tooltip="Show items with the tag &quot;Channel Modeling&quot;">Channel Modeling</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ieeexplore.ieee.org/document/801493">
+        <img src="../images/paper.jpeg" onerror="this.src = '/Pottie_Lab_Website/images/placeholder.svg'; this.onerror = null;" data-tooltip="ICEAA-1999-Kondylis-DeFlaviis-Pottie" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ieeexplore.ieee.org/document/801493">
+        Indoor channel characterization for wireless communications using reduced finite difference time domain (R-FDTD)
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      G. Kondylis, F. DeFlaviis, G. Pottie
+    </div><div class="citation_details">
+      IEEE&nbsp; · &nbsp;01 Sep 1999
+    </div><div class="tags" data-link="/Pottie_Lab_Website/research/"><a href="./index.html?search=&quot;tag:&#32;Channel&#32;Modeling&quot;" class="tag" data-tooltip="Show items with the tag &quot;Channel Modeling&quot;">Channel Modeling</a></div><div class="citation_links"></div></div>
+</div>
+
+</section>
+    </main>
+    <footer class="background" style="--background: url('../images/background.jpg')" data-dark="true">
+
+  <!--
+  <div class="footer_row">
+    Extra details like contact info or address
+  </div>
+  -->
+
+  <div class="footer_row"><a class="link" href="mailto:pottie@ee.ucla.edu" data-tooltip="Email" data-icon="true"   data-style=""><i class="fas fa-envelope fa-lg fa-fw"></i></a><a class="link" href="https://github.com/your-lab" data-tooltip="GitHub" data-icon="true"   data-style=""><i class="fab fa-github fa-lg fa-fw"></i></a></div>
+
+  <div class="footer_row">
+    <span>
+      &copy; 2023 Dr. Gregory Pottie's Lab
+      &nbsp; | &nbsp;
+      Built with <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a>
+    </span>
+  </div>
+
+</footer>
+
+  </body>
+</html>
